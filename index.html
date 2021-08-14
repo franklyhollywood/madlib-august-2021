@@ -1,74 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta charset='UTF-8' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<meta http-equiv='X-UA-Compatible' content='ie=edge' />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
-			rel="stylesheet"
+			href='https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap'
+			rel='stylesheet'
 		/>
-		<link rel="stylesheet" href="./styles/reset.css" />
-		<link rel="stylesheet" href="./styles/style.css" />
-		<link rel="stylesheet" href="./styles/home.css" />
+		<link rel='stylesheet' href='./styles/reset.css' />
+		<link rel='stylesheet' href='./styles/style.css' />
+		<link rel='stylesheet' href='./styles/home.css' />
 		<title>Document</title>
 	</head>
 
 	<body>
 		<header>
-			<div class="gutter-right logo">
-				<img src="assets/big-logo.png" />
-			</div>
+			<div id='site-name' class='hidden'>CraigsList</div>
+			<!-- <div class='gutter-right logo'>
+				<img src='assets/big-logo.png' />
+			</div> -->
 		</header>
 		<main>
-			<section class="main-section">
-				<img class="main-logo" src="./assets/alchemy-logo.png" />
-			</section>
-			<input id="input1" placeholder="Year" type="text" />
-			<input id="input2" placeholder="Vehicle" type="text" />
-			<input id="input3" placeholder="Noun" type="text" />
-			<input id="input4" placeholder="Price" type="text" />
-			<input id="input5" placeholder="Object" type="text" />
-			<input id="input6" placeholder="Adjective" type="text" />
-			<input id="input7" placeholder="Number" type="text" />
-			<input id="input8" placeholder="Number" type="text" />
-			<input id="input9" placeholder="Number" type="text" />
-			<input id="input10" placeholder="Noun" type="text" />
-			<input id="input11" placeholder="Noun" type="text" />
-			<input id="input12" placeholder="Animal" type="text" />
-			<button>Submit</button>
-			<p>
+			<!-- <section class='main-section'>
+				<img class='main-logo' src='./assets/alchemy-logo.png' />
+			</section> -->
+			<h2>Play our MadLib game by filling out the fields below:</h2>
+			<input class='input-s' id='input1' placeholder='Year' type='text' />
+			<input class='input-s' id='input2' placeholder='Vehicle' type='text' />
+			<input class='input-s' id='input3' placeholder='Noun' type='text' />
+			<input class='input-s' id='input4' placeholder='Price' type='text' />
+			<input class='input-s' id='input5' placeholder='Object' type='text' />
+			<input class='input-s' id='input6' placeholder='Adjective' type='text' />
+			<input class='input-s' id='input7' placeholder='Number' type='text' />
+			<input class='input-s' id='input8' placeholder='Number' type='text' />
+			<input class='input-s' id='input9' placeholder='Number' type='text' />
+			<input class='input-s' id='input10' placeholder='Noun' type='text' />
+			<input class='input-s' id='input11' placeholder='Noun' type='text' />
+			<input class='input-s' id='input12' placeholder='Animal' type='text' />
+			<button class='btn-s' id='btn-sub'>Submit</button>
+			<p id='mad-ad' class='hidden'>
 				Selling my
-				<span id="year">*year*</span>
-				<span id="vehicle">* vehicle *</span>
+				<span id='year'></span>
+				<span id='vehicle'></span>
 				with
-				<span id="firstNoun">*1st noun*</span>
+				<span id='firstNoun'></span>
 				for
-				<span id="price">*price*</span>
+				<span id='price'></span>
 				or about the cost of a
-				<span id="object">*object*</span>
+				<span id='object'></span>
 				. It's in
-				<span id="adjective1">*adjective*</span>
+				<span id='adjective1'></span>
 				shape. This is the High Output
-				<span id="number1">*1stnumber*</span>
+				<span id='number1'></span>
 				HP model with IBR and can seat up to
-				<span id="number2">*number*</span>
+				<span id='number2'></span>
 				people. It fires right up and runs flawlessly. It's been well kept and
 				only has
-				<span id="number3">*2nd*</span>
+				<span id='number3'></span>
 				hours on it. It also has the convenience package (front
-				<span id="noun2">*2nd noun*</span>
+				<span id='noun2'></span>
 				and rear
-				<span id="noun3">*3rd noun*)</span>
+				<span id='noun3'></span>
 				. It comes on a 2018 galvanized trailer. Includes a
-				<span id="animal">*animal*</span>
+				<span id='animal'></span>
 				murale painted on the side.
 			</p>
 		</main>
 		<footer>
-			<div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+			<div class='copy gutter-right'>&copy; 2020 Alchemy Code Lab</div>
 		</footer>
 
-		<script type="module" src="./app.js"></script>
+		<script type='module' src='./app.js'></script>
 	</body>
 </html>
