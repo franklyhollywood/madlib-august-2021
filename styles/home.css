@@ -1,1 +1,10 @@
 /* add home page styles here */
+.hidden {
+    display: none;
+}
+header {
+    background-color: rgb(238, 238, 238);
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}

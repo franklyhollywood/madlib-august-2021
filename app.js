@@ -30,14 +30,27 @@ const spanEl9 = document.getElementById('number3');
 const spanEl10 = document.getElementById('noun2');
 const spanEl11 = document.getElementById('noun3');
 const spanEl12 = document.getElementById('animal');
-
+const paragraph = document.getElementById('mad-ad');
+const siteName = document.getElementById('site-name');
 // initialize state
 
 // set event listeners 
 subEl.addEventListener('click', () => {
+    siteName.classList.remove('hidden');
+    paragraph.classList.remove('hidden');
     spanEl1.textContent = inputEl1.value;
-console.log()
-})
+    spanEl2.textContent = inputEl2.value;
+    spanEl3.textContent = inputEl3.value;
+    spanEl4.textContent = inputEl4.value;
+    spanEl5.textContent = inputEl5.value;
+    spanEl6.textContent = inputEl6.value;
+    spanEl7.textContent = inputEl7.value;
+    spanEl8.textContent = inputEl8.value;
+    spanEl9.textContent = inputEl9.value;
+    spanEl10.textContent = inputEl10.value;
+    spanEl11.textContent = inputEl11.value;
+    spanEl12.textContent = inputEl12.value;
+});
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
